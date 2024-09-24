@@ -1,0 +1,48 @@
+.employee-list-container {
+    margin: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    padding: 10px;
+  }
+  
+  .create-employee {
+    background-color: lightgreen;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-bar {
+    margin: 10px 0;
+  }
+  
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .employee-table th, .employee-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .employee-table th {
+    background-color: #add8e6;
+  }
+  
+  .employee-table img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  button {
+    padding: 5px;
+    margin: 0 5px;
+  }
+  
